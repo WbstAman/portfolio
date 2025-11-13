@@ -253,7 +253,8 @@ body {
   line-height: 24px;
   letter-spacing: -0.005em;
   color: var(--black);
-  background-color: var(--surface);
+  background: #BDC5DB;
+  /* background-color: var(--surface); */
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "zero";
