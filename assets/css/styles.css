@@ -47,7 +47,7 @@
   --black-72: rgba(0, 0, 0, 0.72);
   /*-- Project Color --*/
   --primary: #00DE51;
-  --surface: #F5F5F5;
+  --surface: #BEC6DC;
   --bg: #EBEBEB;
   --bg-2: #EAEAEA;
   --bg-3: #0F0F0F;
@@ -253,8 +253,8 @@ body {
   line-height: 24px;
   letter-spacing: -0.005em;
   color: var(--black);
-  background: #BDC5DB;
-  /* background-color: var(--surface); */
+  /* background: #BDC5DB; */
+  background-color: var(--surface);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "zero";
@@ -4493,7 +4493,9 @@ button.animate-btn::after,
 .sidebar-user .user-image {
   border-radius: 18px;
   overflow: hidden;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), #F5F5F5;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), #F5F5F5; */
+  background: linear-gradient(rgb(189, 197, 219) 0%, rgb(225, 234, 239) 100%);
+;
   background-blend-mode: plus-darker;
   width: 100%;
   position: relative;
