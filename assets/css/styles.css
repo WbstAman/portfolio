@@ -6747,10 +6747,10 @@ button.animate-btn::after,
 
 /*-- Light Mode --*/
 .body-v1:not(.dark-mode) .body-background {
-  background: linear-gradient(180deg, #BDC5DB 0%, #E1EAEF 100%);
+  background: linear-gradient(180deg, #fff 0%, #fff 100%);
 }
 .body-v1:not(.dark-mode) .sidebar-user .user-image {
-  background: linear-gradient(180deg, #BDC5DB 0%, #E1EAEF 100%);
+  background: linear-gradient(180deg, #fff 0%, #fff 100%);
 }
 
 .body-v2:not(.dark-mode) .body-background {
@@ -7128,7 +7128,7 @@ button.animate-btn::after,
   border-radius: 50%;
 }
 .choose-item .color.type-body-v1 {
-  background: linear-gradient(180deg, #BDC5DB 0%, #E1EAEF 100%);
+  background: linear-gradient(180deg, #fff 0%, #fff 100%);
 }
 .choose-item .color.type-body-v2 {
   background: linear-gradient(180deg, #B7BAD1 0%, #D1CAD6 50%, #D5D8E4 100%);
