@@ -88,10 +88,7 @@
                     btn.classList.remove("active");
                     body.classList.remove(bodyClass);
                     return;
-                }
-
-                debugger
-
+                } 
                 document.querySelectorAll(sameGroupSelector).forEach((b) => b.classList.remove("active"));
 
                 btn.classList.add("active");
