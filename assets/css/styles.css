@@ -7451,7 +7451,7 @@ button.animate-btn::after,
   cursor: pointer;
   
   /* filter: none; */
-  filter: grayscale(100%) brightness(0.8);
+  /* filter: grayscale(100%) brightness(0.8); */
 }
 .tech-list-container li:hover{
   filter: none;
