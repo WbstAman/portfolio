@@ -75,7 +75,7 @@
         if (!$(".settings-color").length) return;
 
         const buttons = document.querySelectorAll(".choose-item");
-        const body = document.body;
+         const body = document.body;
 
         buttons.forEach((btn, index) => {
             btn.addEventListener("click", () => {
@@ -88,8 +88,7 @@
                     btn.classList.remove("active");
                     body.classList.remove(bodyClass);
                     return;
-                }
-
+                } 
                 document.querySelectorAll(sameGroupSelector).forEach((b) => b.classList.remove("active"));
 
                 btn.classList.add("active");
